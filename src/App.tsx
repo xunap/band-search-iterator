@@ -37,10 +37,10 @@ const App = () => {
   };
 
   return (
-    <Box sx={{ width: 320, margin: 'auto', p: 2 }}>
+    <Box sx={{ width: 800, margin: 'auto', p: 2 }}>
       <TextField
         value={searchTerm}
-        placeholder="Search Band (press Enter)"
+        placeholder="Search Band (press Enter)..."
         fullWidth
         sx={{
           mb: 1,
@@ -78,7 +78,7 @@ const App = () => {
               border: '2px solid grey',
             }}
           >
-            <Typography variant="h4">{item}</Typography>
+            <Typography variant="h5">{item}</Typography>
           </Card>
         ))}
       </Paper>
